@@ -1,0 +1,156 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Alice Blue for a light background */
+}
+
+/* Header Section */
+header {
+    background-color: #ffb3b3; /* Light Pink */
+    color: #333;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+    background-color: #d3ffd3; /* Light Mint Green */
+    color: #333;
+    padding: 40px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #fff5b3; /* Light Yellow */
+    color: #333;
+    padding: 40px;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #b3e0ff; /* Light Sky Blue */
+    color: #333;
+    padding: 40px;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: center;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-item h3 {
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+.project-item p {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Resume Section */
+#resume {
+    background-color: #ffccff; /* Light Lavender */
+    color: #333;
+    padding: 40px;
+    text-align: center;
+}
+
+#resume h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f0e6f7; /* Very Light Lavender */
+    color: #333;
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
